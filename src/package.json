@@ -1,0 +1,22 @@
+{
+    "name": "Rock-Paper-Scissors-game",
+    "version": "1.0.0",
+    "description": "Rock paper scissors game for Alexa",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "ADD URL"
+    },
+    "keywords": [
+        "Alexa",
+        "game",
+        "skill"
+    ],
+    "author": "Thomas Falsone",
+    "dependencies": {
+        "alexa-sdk": "^1.0.0"
+    }
+}

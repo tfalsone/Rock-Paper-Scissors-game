@@ -1,0 +1,33 @@
+{
+    "intents": [
+        {
+            "name": "GuessIntent",
+            "samples": [
+                "{guess}",
+                "I'll go {guess}",
+                "Try [guess]",
+                "Let's try {guess}"
+            ],
+            "slots": [
+                {
+                    "name": "guess",
+                    "type": "LIST_OF_GUESS"
+                    "samples": []
+                }
+            ]
+        },
+        {"intent": "AMAZON.YesIntent"},
+        {"intent": "AMAZON.NoIntent"},
+        {"intent": "AMAZON.HelpIntent"},
+        {"intent": "AMAZON.StopIntent"},
+        {"intent": "AMAZON.CancelIntent"},
+        {
+            "name": "LIST_OF_GUESS",
+            "values" : [
+                {"name": {"value": "Rock"}},
+                {"name": {"Value": "Paper"}},
+                {"name": {"value": "Scissors"}}
+            ]
+        }
+    ]
+}
